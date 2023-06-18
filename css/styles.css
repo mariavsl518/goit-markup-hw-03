@@ -1,0 +1,191 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --body-text-color: #434455;
+    --button-link-color:#4D5AE5;
+    --hover-link-color:#404BBF;
+    --main-white-color:#F4F4FD;
+    --title-color:#2e2f42;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FFF;
+}
+.link {
+    text-decoration: none;
+    color: var(--body-text-color);
+}
+.list {
+    list-style: none;
+    color: var(--title-color);
+}
+/* logo */
+.link.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-link-color);
+}
+.logo-grey {
+    color: var(--title-color);
+}
+/* Header */    
+.list .link.navi {
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.list .link.navi:hover,
+.list .link.navi:focus,
+.list .link.navi:active{
+    color: var(--hover-link-color);
+}
+
+.contacts{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+.contacts .link:hover,
+.contacts .link:active,
+.contacts .link:focus {
+    color:var(--hover-link-color)
+}
+/* hero */
+.hero {
+    color:#FFF;
+    background-color:#2E2F42; 
+}
+.hero-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero .hero-button {
+    font-family: "Roboto", sans-serif; 
+    color: #FFF;
+    background-color: var(--button-link-color); 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+.hero .hero-button:hover,
+.hero .hero-button:active, 
+.hero .hero-button:focus {
+    background-color: var(--hover-link-color);
+}
+/* benefits section */
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.section-text{
+    letter-spacing: 0.02em;
+    color:var(--body-text-color);
+}
+/* what are we doing */
+.wawd-title {
+    color: var(--title-color);
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+/* Team */
+.team-section {
+    background-color: var(--main-white-color);
+}
+.team-title {
+    color:var(--title-color);
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+.team-member {
+    background-color: #FFF;
+}
+.team-text {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* PORTFOLIO */
+
+/*  button line */
+.buttons {
+    font-family: var(--primary-font);
+    color: var(--button-link-color);
+    background-color:var(--main-white-color);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+.buttons:hover,
+.buttons:active,
+.buttons:focus
+{
+    background-color: var(--hover-link-color);
+    color:#FFF;
+}
+/* pictures */
+.picture-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.picture-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+}
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+    color: var(--main-white-color);
+}
+.logo-white {
+    color: var(--main-white-color);
+}
+.footer-text{
+    letter-spacing: 0.02em;
+}
