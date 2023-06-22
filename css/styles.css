@@ -217,8 +217,10 @@ ul {
 /* PORTFOLIO */
 
 /*  button line */
-.portfolio-container {
+.portfolio-section {
     margin-bottom: 120px;
+    padding-top: 96px; 
+    padding-bottom: 120px; 
 }
 .buttons {
     font-family: var(--primary-font);
