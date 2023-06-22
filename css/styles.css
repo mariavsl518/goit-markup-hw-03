@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, li, p {
 }
 ul {
     margin: 0;
+    padding: 0;
     list-style: none;
 }
 .container {
@@ -42,8 +43,9 @@ ul {
 }
 
 /* Header */  
-header {
+.header {
     padding: 24px 0;
+    border: 1px solid #E7E9FC;
 } 
 /* logo */
 .link.logo {
@@ -102,13 +104,16 @@ header {
     background-color:#2E2F42; 
     width: 1440px;
     height: 600px;
-    padding: 188px;
+    padding: 188px 0;
 }
 .hero-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    margin:auto;
+    margin:auto auto 48px auto;
+    max-width: 496px; 
+}
+.hero-container {
 }
 .hero-button {
     font-family: "Roboto", sans-serif; 
@@ -117,10 +122,14 @@ header {
     font-weight: 500;
     cursor: pointer;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
+    display: block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
 
-    
 }
 .hero-button:hover,
 .hero-button:active, 
@@ -131,6 +140,7 @@ header {
 .benefits-section{
     padding-top: 120px;
 }
+
 .benefits-list{
     display: flex;
     gap: 24px;
@@ -140,6 +150,7 @@ header {
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 .section-text{
     letter-spacing: 0.02em;
@@ -149,7 +160,8 @@ header {
 }
 /* what are we doing */
 .wawd-section {
-    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .wawd-title {
     color: var(--title-color);
@@ -176,7 +188,8 @@ header {
     justify-content: center;
 }
 .team-card {
-    object-fit: contain;
+    padding: 32px 16px;
+    text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -195,6 +208,7 @@ header {
     align-items: center;
     padding: 0px 0px 32px;
     gap: 32px;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-text {
     color: #434455;
@@ -214,6 +228,7 @@ header {
     font-weight: 500;
     letter-spacing: 0.04em;
     padding: 12px 24px;
+    border: 1px solid #E7E9FC;
     
 }
 .buttons:hover,
@@ -260,6 +275,10 @@ header {
     background-color: #2E2F42;
     color: var(--main-white-color);
     padding: 100px 0px;
+}
+.footer-logo {
+    display: inline-block; 
+    margin-bottom: 16px; 
 }
 .logo-white {
     color: var(--main-white-color);

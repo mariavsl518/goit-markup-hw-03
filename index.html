@@ -16,16 +16,17 @@
     <!-- Normalizer -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
     />
     <!-- styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="header-container container">
         <nav class="nav-line">
           <a class="link logo" href="./index.html"
@@ -58,7 +59,7 @@
       <!-- Hero section -->
 
       <section class="hero">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
@@ -68,7 +69,7 @@
 
       <section class="benefits-section">
         <div class="container">
-          <h2 hidden>Benefits</h2>
+          <h2 .visually-hidden>Benefits</h2>
           <ul class="list benefits-list">
             <li>
               <h3 class="title">Strategy</h3>
@@ -112,7 +113,6 @@
             <li class="image-card">
               <img
                 src="./images/comp.jpg"
-                ob
                 alt="computer"
                 width="360"
                 height="360"
@@ -144,50 +144,50 @@
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="list team-list">
-            <li class="team-member">
+            <li>
+              <img
+                src="./images/img.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <img
-                  src="./images/img.jpg"
-                  alt="Mark Guerrero"
-                  width="264"
-                  height="260"
-                />
                 <h3 class="title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
               </div>
             </li>
-            <li class="team-member">
+            <l>
+              <img
+                src="./images/img-2.jpg"
+                alt="Tom Ford"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <img
-                  src="./images/img-2.jpg"
-                  alt="Tom Ford"
-                  width="264"
-                  height="260"
-                />
                 <h3 class="title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
               </div>
-            </li>
-            <li class="team-member">
+            </l>
+            <li>
+              <img
+                src="./images/img-3.jpg"
+                alt="Camila Garcia"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <img
-                  src="./images/img-3.jpg"
-                  alt="Camila Garcia"
-                  width="264"
-                  height="260"
-                />
                 <h3 class="title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
               </div>
             </li>
-            <li class="team-member">
+            <li>
+              <img
+                src="./images/img-4.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
-                <img
-                  src="./images/img-4.jpg"
-                  alt="Daniel Wilson"
-                  width="264"
-                  height="260"
-                />
                 <h3 class="title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
               </div>
@@ -199,7 +199,7 @@
 
     <footer class="footer">
       <div class="container">
-        <a class="link logo" href="./index.html"
+        <a class="link logo footer-logo" href="./index.html"
           >Web<span class="logo-white">Studio</span></a
         >
         <p class="footer-text">
