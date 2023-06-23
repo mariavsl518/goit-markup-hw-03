@@ -29,6 +29,10 @@ ul {
     padding: 0;
     list-style: none;
 }
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
 .container {
     width: 1158px;
     padding:0 15px;
