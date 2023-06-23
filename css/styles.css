@@ -30,9 +30,18 @@ ul {
     list-style: none;
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .container {
     width: 1158px;
     padding:0 15px;
@@ -267,7 +276,7 @@ ul {
     display:flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 48px;
+    row-gap: 48px;
     justify-content: center;
 
 }
@@ -278,15 +287,15 @@ ul {
     font-weight: 500;
     font-size: 20px;
     color: var(--title-color);
+    margin-bottom: 8px;
 }
 .picture-text {
     color: var(--body-text-color);
 }
 .card {
-    border-right:1px solid #E7E9FC;
-    border-bottom: 1px solid #E7E9FC;
-    border-left: 1px solid #E7E9FC;
-    
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 /* Footer */
 .footer {
