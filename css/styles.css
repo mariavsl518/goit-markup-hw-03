@@ -70,7 +70,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--button-link-color);
-    display: flex;
     margin-right: 76px;
 }
 .logo-grey {
